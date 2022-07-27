@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+  color: #40514e;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 6rem;
+  color: #1572a1;
+}
+
+h2 {
+  color: #1572a1;
+  font-size: 1.5em;
+  font-family: "Poiret One", cursive;
+  margin-bottom: 50px;
+}
+
+h3 {
+  color: #9ad0ec;
+  font-weight: normal;
+  font-family: "Poiret One", cursive;
+  margin: 0px;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+hr {
+  border-style: none;
+  height: 0px;
+  border-width: 10px;
+  width: 10%;
+  border-color: #9ad0ec;
+  border-top-style: dotted;
+  margin: 100px auto 100px auto;
+}
+
+.skill-img {
+  width: 25%;
+  border-radius: 8px;
+  float: left;
+  margin: auto 30px auto auto;
+  border-radius: 50%;
+}
+
+.topContainer {
+  background-color: #9ad0ec;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #9ad0ec;
+  padding: 50px 0 20px;
+  margin-top: 100px;
+  font-size: 1.5rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+}
+
+.author {
+  border-radius: 50%;
+  width: 10%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+}
+
+a {
+  color: #1572a1;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #9ad0ec;
+}
+
+.bottom-container > a:hover {
+  color: white;
+}
+
+.bottom-container > p {
+  font-size: 1rem;
+  color: white;
+}
